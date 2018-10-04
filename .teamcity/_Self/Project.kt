@@ -7,6 +7,6 @@ object Project : Project({
     subProjectsOrder = arrayListOf(RelativeId("Release"), RelativeId("Deployment"))
 
     subProject(Release.Project)
+    subProject(Tests.Project)
     subProject(Deployment.Project)
-    subProject(Test.Project)
 })

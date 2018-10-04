@@ -1,4 +1,4 @@
-package Test
+package Tests
 
 import jetbrains.buildServer.configs.kotlin.v2018_1.*
 import jetbrains.buildServer.configs.kotlin.v2018_1.Project
