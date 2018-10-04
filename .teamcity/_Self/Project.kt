@@ -8,4 +8,5 @@ object Project : Project({
 
     subProject(Release.Project)
     subProject(Deployment.Project)
+    subProject(Test.Project)
 })
