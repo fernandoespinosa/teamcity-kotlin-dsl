@@ -14,6 +14,4 @@ object Project : Project({
     buildType(Deployment_Dev_Producers_Redemption)
     buildType(Deployment_Dev_Producers_Account)
     buildTypesOrder = arrayListOf(Deployment_Dev_Producers_Issuance, Deployment_Dev_Producers_Redemption, Deployment_Dev_Producers_Account, Deployment_Dev_Consumers_TransactionHistory, Deployment_Dev_Consumers_Finance)
-
-    subProject(Deployment_Dev_Tests.Project)
 })

@@ -22,7 +22,7 @@ object Deployment_Integration_Producers_Account : BuildType({
     dependencies {
         snapshot(Deployment_Dev.buildTypes.Deployment_Dev_Producers_Account) {
         }
-        snapshot(Deployment_Dev_Tests.buildTypes.Deployment_Dev_Tests_Producers_Account) {
+        snapshot(Tests_Dev.buildTypes.Deployment_Dev_Tests_Producers_Account) {
         }
     }
 })
