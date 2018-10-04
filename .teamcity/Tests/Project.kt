@@ -4,6 +4,6 @@ import jetbrains.buildServer.configs.kotlin.v2018_1.*
 import jetbrains.buildServer.configs.kotlin.v2018_1.Project
 
 object Project : Project({
-    id("Test")
-    name = "Test"
+    id("Tests")
+    name = "Tests"
 })
